@@ -121,31 +121,31 @@ class App extends React.Component {
                 value="dogs"
                 id="dogs"
                 onClick ={(event)=>this.searchDogs(event)}>
-                  <img src="../images/Dogs.png"/>
+                  <img src="images/Dogs.png"/>
               </button>
               <button
                 value="monkeys"
                 id="monkeys"
                 onClick ={(event)=>this.searchMonkeys(event)}>
-                  <img src="../images/Monkeys.png"/>
+                  <img src="images/Monkeys.png"/>
               </button>
               <button
                 value="cats"
                 id="cats"
                 onClick ={(event)=>this.searchCats(event)}>
-                  <img src="../images/Cats.png"/>
+                  <img src="images/Cats.png"/>
               </button>
               <button
                 value="lions"
                 id="lions"
                 onClick ={(event)=>this.searchLions(event)}>
-                  <img src="../images/Lions.png"/>
+                  <img src="images/Lions.png"/>
               </button>
               <button
                 value="elephants"
                 id="elephants"
                 onClick ={(event)=>this.searchElephants(event)}>
-                  <img src="../images/Elephants.png"/>
+                  <img src="images/Elephants.png"/>
               </button>
           </div>
           <Gif
