@@ -14,6 +14,14 @@ body {
         height: auto;
         background-color: beige;
         h1 {
+          background-color: navy;
+          color: orange;
+          font-size: 40px;
+          padding: 5px;
+          text-align: center;
+          margin: 0 auto;
+        }
+        h2 {
           color: navy;
           font-size: 32px;
           padding: 5px;
@@ -24,25 +32,29 @@ body {
         .panel_title {
           display: flex;
           flex-direction: row;
-          justify-content: space-between;
-          h2 {
+          justify-content: space-around;
+          h3 {
             display: inline-block;
             width: 100px;
             text-align: center;
-            color: blue;
+            background-color: navy;
+            color: orange;
             font-size: 18px;
+            padding: 5px;
+            border-radius: 5px 5px 0 0;
+            margin: 0;
           }
         }
         .panel_buttons {
           display: flex;
           flex-direction: row;
-          justify-content: space-between;
+          justify-content: space-around;;
         }
         button {
           height: 100px;
           width: 100px;
           border: 2px solid navy;
-          border-radius: 5px;
+          border-radius: 0 0 5px 5px;
           padding: 0;
           cursor: pointer;
           transition: 1s linear;
@@ -58,14 +70,16 @@ body {
       .gif {
         margin: 10px auto;
         padding: 0;
-        width: 480px;
-        height: 370px;
+        width: 568px;
+        height: 400px;
         overflow-y: auto;
         overflow-x: hidden;
+        border: none;
+        background-color: orange;
 
           .gif_image {
-            width: 480px;
-            height: 370px;
+            width: 568px;
+            height: 400px;
           }
       }
   }
