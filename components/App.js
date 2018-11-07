@@ -119,7 +119,8 @@ class App extends React.Component {
       return (
         <div>
           <h1> Animals&#39; gifs search engine</h1>
-          <h2> Search gifs by animal&#39; name</h2>
+          <h2> Search gifs by animal&#39;s name</h2>
+          <h2> Push the button with animal&#39;s name on it! Have fun!!! </h2>
           <div className={'panel_title'}>
               <h3>Dog</h3>
               <h3>Monkey</h3>
@@ -130,32 +131,26 @@ class App extends React.Component {
           </div>
           <div className={'panel_buttons'}>
               <button
-                id="dogs"
                 onClick ={(event)=>this.searchDogs(event)}>
                   <img src="images/Dogs.png"/>
               </button>
               <button
-                id="monkeys"
                 onClick ={(event)=>this.searchMonkeys(event)}>
                   <img src="images/Monkeys.png"/>
               </button>
               <button
-                id="cats"
                 onClick ={(event)=>this.searchCats(event)}>
                   <img src="images/Cats.png"/>
               </button>
               <button
-                id="lions"
                 onClick ={(event)=>this.searchLions(event)}>
                   <img src="images/Lions.png"/>
               </button>
               <button
-                id="elephants"
                 onClick ={(event)=>this.searchElephants(event)}>
                   <img src="images/Elephants.png"/>
               </button>
               <button
-                id="elephants"
                 onClick ={(event)=>this.searchAnimals(event)}>
                   <img src="images/Surprise.png"/>
               </button>

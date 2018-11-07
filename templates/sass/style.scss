@@ -26,8 +26,11 @@ body {
           font-size: 32px;
           padding: 10px;
           text-align: center;
-          margin: 0 auto 10px auto;
+          margin: 0 auto;
           background-color: #ffc14d;
+        }
+        h2:last-of-type {
+          margin: 0 auto 10px auto;
         }
         .panel_title {
           display: flex;
@@ -62,8 +65,8 @@ body {
             filter: invert(100%);
           }
           img {
-            height: 94px;
-            width: 94px;
+            height: 96px;
+            width: 96px;
           }
         }
       }
